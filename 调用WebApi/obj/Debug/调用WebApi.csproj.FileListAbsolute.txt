@@ -1,0 +1,10 @@
+G:\项目\学习\录视频\Chapter1\ConsoleApp1\调用WebApi\bin\Debug\调用WebApi.exe.config
+G:\项目\学习\录视频\Chapter1\ConsoleApp1\调用WebApi\bin\Debug\调用WebApi.exe
+G:\项目\学习\录视频\Chapter1\ConsoleApp1\调用WebApi\bin\Debug\调用WebApi.pdb
+G:\项目\学习\录视频\Chapter1\ConsoleApp1\调用WebApi\bin\Debug\Newtonsoft.Json.dll
+G:\项目\学习\录视频\Chapter1\ConsoleApp1\调用WebApi\bin\Debug\Newtonsoft.Json.xml
+G:\项目\学习\录视频\Chapter1\ConsoleApp1\调用WebApi\obj\Debug\调用WebApi.csproj.AssemblyReference.cache
+G:\项目\学习\录视频\Chapter1\ConsoleApp1\调用WebApi\obj\Debug\调用WebApi.csproj.CoreCompileInputs.cache
+G:\项目\学习\录视频\Chapter1\ConsoleApp1\调用WebApi\obj\Debug\调用WebApi.csproj.CopyComplete
+G:\项目\学习\录视频\Chapter1\ConsoleApp1\调用WebApi\obj\Debug\调用WebApi.exe
+G:\项目\学习\录视频\Chapter1\ConsoleApp1\调用WebApi\obj\Debug\调用WebApi.pdb

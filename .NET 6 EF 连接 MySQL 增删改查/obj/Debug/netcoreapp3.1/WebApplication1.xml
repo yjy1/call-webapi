@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication1</name>
+    </assembly>
+    <members>
+        <member name="M:WebApplication1.Controllers.OperationApiController.GetUserInfo(System.Int32,System.Int32,System.String)">
+            <summary>
+            获取用户信息
+            </summary>
+            <param name="page">当前页码</param>
+            <param name="limit">显示条数</param>
+            <param name="userName">用户姓名</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.OperationApiController.AddUserInfo(Model.ViewModel.AddUserInfoViewModel)">
+            <summary>
+            信息添加
+            </summary>
+            <param name="userInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.OperationApiController.UpdateUserInfo(Model.UserInfo)">
+            <summary>
+            数据更新
+            </summary>
+            <param name="userInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.OperationApiController.DataDelete(System.Nullable{System.Int32})">
+            <summary>
+            数据删除
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.OperationApiController.QueryUserInfoDetail(System.Int32)">
+            <summary>
+            获取数据记录详情
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WebApplication1.Controllers.OperationApiController.WebApiCallBack">
+            <summary>
+            接口回调Json实体
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Controllers.OperationApiController.WebApiCallBack.methodDescription">
+            <summary>
+            请求接口返回说明
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Controllers.OperationApiController.WebApiCallBack.otherData">
+            <summary>
+            提交数据
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Controllers.OperationApiController.WebApiCallBack.status">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Controllers.OperationApiController.WebApiCallBack.msg">
+            <summary>
+            信息说明。
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Controllers.OperationApiController.WebApiCallBack.data">
+            <summary>
+            返回数据
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Controllers.OperationApiController.WebApiCallBack.code">
+            <summary>
+            返回编码
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Controllers.OperationApiController.WebApiCallBack.count">
+            <summary>
+            返回行数
+            </summary>
+        </member>
+        <member name="M:WebApplication1.IUserInfoService.Create(Model.ViewModel.AddUserInfoViewModel)">
+            <summary>
+            学生信息添加
+            </summary>
+            <param name="userInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.IUserInfoService.GetPageListData(System.Int32,System.Int32,System.String)">
+            <summary>
+            获取用户信息
+            </summary>
+            <param name="page">当前页码</param>
+            <param name="limit">显示条数</param>
+            <param name="userName">用户姓名</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.IUserInfoService.Update(Model.UserInfo)">
+            <summary>
+            学生信息修改
+            </summary>
+            <param name="userInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.IUserInfoService.Delete(System.Nullable{System.Int32})">
+            <summary>
+            学生信息删除
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.IUserInfoService.QueryUserInfoDetail(System.Int32)">
+            <summary>
+            查找用户详情
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:WebApplication1.SchoolUserInfoContext.UserInfos">
+            <summary>
+            DbSet实体集属性对应数据库中的表(注意实体集名必须与表明一致)
+            </summary>
+        </member>
+        <member name="M:WebApplication1.SchoolUserInfoContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            TODO:当数据库创建完成后， EF 创建一系列数据表，表名默认和 DbSet 属性名相同。 集合属性的名称一般使用复数形式，但不同的开发人员的命名习惯可能不一样，        /// 开发人员根据自己的情况确定是否使用复数形式。 在定义 DbSet 属性的代码之后，添加下面代码，对DbContext指定单数的表名来覆盖默认的表名。
+            </summary>
+            <param name="modelBuilder"></param>
+        </member>
+        <member name="M:WebApplication1.UserInfoService.#ctor(WebApplication1.SchoolUserInfoContext)">
+            <summary>
+            依赖注入
+            </summary>
+            <param name="schoolUserInfoContext"></param>
+        </member>
+        <member name="M:WebApplication1.UserInfoService.Create(Model.ViewModel.AddUserInfoViewModel)">
+            <summary>
+            学生信息添加
+            </summary>
+            <param name="addUserInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.UserInfoService.GetPageListData(System.Int32,System.Int32,System.String)">
+            <summary>
+            获取用户信息
+            </summary>
+            <param name="page">当前页码</param>
+            <param name="limit">显示条数</param>
+            <param name="userName">用户姓名</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.UserInfoService.Update(Model.UserInfo)">
+            <summary>
+            学生信息修改
+            </summary>
+            <param name="userInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.UserInfoService.Delete(System.Nullable{System.Int32})">
+            <summary>
+            学生信息删除
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.UserInfoService.QueryUserInfoDetail(System.Int32)">
+            <summary>
+            查找用户详情
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Model.ViewModel.AddUserInfoViewModel.UserName">
+            <summary>
+            学生姓名
+            </summary>
+        </member>
+        <member name="P:Model.ViewModel.AddUserInfoViewModel.Sex">
+            <summary>
+            学生性别
+            </summary>
+        </member>
+        <member name="P:Model.ViewModel.AddUserInfoViewModel.Phone">
+            <summary>
+            学生联系电话
+            </summary>
+        </member>
+        <member name="P:Model.ViewModel.AddUserInfoViewModel.Description">
+            <summary>
+            学生描述
+            </summary>
+        </member>
+        <member name="P:Model.ViewModel.AddUserInfoViewModel.Hobby">
+            <summary>
+            学生爱好
+            </summary>
+        </member>
+        <member name="T:Model.PageModel.PageSearchModel">
+            <summary>
+            分页
+            </summary>
+        </member>
+        <member name="P:Model.PageModel.PageSearchModel.Code">
+            <summary>
+            成功状态（200表示成功）
+            </summary>
+        </member>
+        <member name="P:Model.PageModel.PageSearchModel.ResultMsg">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="T:Model.UserInfo">
+            <summary>
+            学生信息模型
+            </summary>
+        </member>
+        <member name="P:Model.UserInfo.Id">
+            <summary>
+            学生编号
+            </summary>
+        </member>
+        <member name="P:Model.UserInfo.UserName">
+            <summary>
+            学生姓名
+            </summary>
+        </member>
+        <member name="P:Model.UserInfo.Sex">
+            <summary>
+            学生性别
+            </summary>
+        </member>
+        <member name="P:Model.UserInfo.Phone">
+            <summary>
+            学生联系电话
+            </summary>
+        </member>
+        <member name="P:Model.UserInfo.Description">
+            <summary>
+            学生描述
+            </summary>
+        </member>
+        <member name="P:Model.UserInfo.Hobby">
+            <summary>
+            学生爱好
+            </summary>
+        </member>
+    </members>
+</doc>
